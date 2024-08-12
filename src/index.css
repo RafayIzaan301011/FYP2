@@ -1,0 +1,234 @@
+ body{
+   /* display: flex; */
+      justify-content: center;
+      align-items: flex-start;
+      background-color: #030812;
+ }
+
+ h2{
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      margin-top: 3px;
+      padding-top: 0px;
+ }
+
+ #top-div{
+   padding-left: 9px;
+   margin-left: 10px;
+ }
+
+ .col-4{
+   padding-right: 0%;
+   padding-left: 0%;
+}
+
+.col-8{
+   border-radius: 10px;
+}
+
+ .card{
+   width: 100%;
+   background-color: #030303;
+   border: none;
+   transform: translateY(1px);
+   /* transform: translateX(450px); */ 
+   height: 730px;
+ }
+
+ .card-title{
+   text-align: center;
+   font-family: Jost, sans-serif;
+   font-weight: 600;
+   letter-spacing: 2px;
+   color: #8e9197;
+   margin-top: 50px;
+   margin-bottom: 60px;
+
+   
+}
+.Poll{
+   color: #74c69d;
+}
+.Ease{
+   color: whitesmoke;
+}
+
+
+
+input {
+   background: 0;
+   border: 0;
+   outline: none;
+   width: 300px;
+   max-width: 300px;
+   font-size: 1.5em;
+   transition: padding 0.3s 0.2s ease;
+   color: whitesmoke;
+   ;
+
+   &:focus {
+      padding-bottom: 5px;
+      color: whitesmoke;
+      letter-spacing: 7px;
+   }
+
+   &:focus+.line {
+      &:after {
+         transform: scaleX(1);
+      }
+   }
+}
+
+.field {
+   position: relative;
+
+   .line {
+      height: 3px;
+      position: absolute;
+      bottom: -8px;
+      background: #bdc3c7;
+      width: 100%;
+
+      &:after {
+         content: " ";
+         position: absolute;
+         float: right;
+         width: 50%;
+
+         height: 3px;
+
+         transform: scalex(0);
+         transition: transform 0.3s ease;
+
+         background: #1abc9c;
+      }
+   }
+}
+
+.btn{
+
+   /* CSS */
+      appearance: none;
+      backface-visibility: hidden;
+      background-color: #27ae60;
+      border-radius: 8px;
+      border-style: none;
+      box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      display: inline-block;
+      font-family: Inter, -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: normal;
+      line-height: 1.5;
+      outline: none;
+      overflow: hidden;
+      padding: 13px 20px;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      transform: translate3d(0, 0, 0);
+      transition: all .3s;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      vertical-align: top;
+      white-space: nowrap;
+      margin-top: 10px;
+   }
+
+   .button-68:hover {
+      background-color: #1e8449;
+      opacity: 1;
+      transform: translateY(0);
+      transition-duration: .35s;
+   }
+
+   .button-68:active {
+      transform: translateY(2px);
+      transition-duration: .35s;
+   }
+
+   .button-68:hover {
+      box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+   }
+  
+   /* .map{
+   } */
+
+
+
+   
+   
+   /* navbar */
+.navbar-expand-lg {
+   background-color: #030303;
+   width: 100%;
+   margin-bottom: 10px;
+}
+#abcd {
+   background-color: #000000;
+   width: 100%;
+}
+
+#pollspan {
+   color: whitesmoke;
+}
+
+#easespan {
+   color: rgb(58, 163, 163);
+}
+
+.nav-link {
+   color: whitesmoke;
+   margin-left: 90px;
+}
+
+.nav-link:active {
+   color: rgb(58, 163, 163);
+}
+
+.nav-link:hover {
+   color: rgb(58, 163, 163);
+}
+
+
+
+.navbar-expand-lg{
+  background-color: #0d1b2a;
+}
+
+#dir-btn{
+   width: 300px;
+   background-color: rgb(58, 163, 163);
+   font-size: x-large;
+   margin-top: 50px;
+}
+
+#dir-btn:hover{
+color: rgb(58, 163, 163) ;
+background-color: whitesmoke;
+}
+
+.p-dis{
+   color: whitesmoke;
+   font-size: x-large;
+   word-spacing: 10px;
+}
+
+#p-dur {
+   color: whitesmoke;
+   font-size: x-large;
+   word-spacing: 10px;
+}
+
+
+#dis-dur-div {
+   margin-top: 200px;
+}
+
+
+   
